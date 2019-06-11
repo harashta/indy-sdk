@@ -26,13 +26,13 @@ services:
   jupyter:
     build:
       context: .
-      dockerfile: getting-started.dockerfile
+      dockerfile: termproject.dockerfile
     command: jupyter notebook --ip=0.0.0.0
-    image: getting-started
-    container_name: getting_started
+    image: termproject
+    container_name: termproject
     working_dir: /home/indy
     volumes:
-       - ./getting-started.ipynb:/home/indy/getting-started.ipynb
+       - ./termproject.ipynb:/home/indy/termproject.ipynb
        - sandbox:/home/indy/sandbox
     ports:
       - "8888:8888"

@@ -1,6 +1,6 @@
-# Indy Getting Started
+# Indy
 
-## Running getting-started with docker-compose
+## Running with docker-compose
 
 ### Prerequisites
 
